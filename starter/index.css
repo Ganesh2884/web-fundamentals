@@ -19,7 +19,6 @@ header{
 }
 
 .main-container{
-    display: grid;
     grid-template-columns: repeat(5,auto);
     gap: 10px;
 }
@@ -36,7 +35,7 @@ header{
 }
 .details-container{
     display: inline-grid;
-    gap: 5px;   
+    gap: 15px;   
 }
 .details{
     display: flex;

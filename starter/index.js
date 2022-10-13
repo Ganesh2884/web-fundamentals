@@ -25,24 +25,14 @@ const fetchData = async () => {
     let mainContainer = document.getElementsByClassName("main-conatiner")[0];
     console.log(mainContainer);
     console.log(data.users);
-  //  let name = document.getElementById("name");
     let result =  await data.users
     console.log(result);
   
 
 
     result.map(element => {
-        // mainContainer.appendChild(element);  
-      //  element.firstName;
-     //   name.valueOf= element.firstName;
-    //  name.textContent = element.firstName;
      console.log(element.image);
-    //   const head =  mainContainer.appendChild(div);
-    //   const img = head.setAttributes("img","src");
-
-   
     mainContainer.appendChild(setAttributes(element));
-    
     });
     
     
@@ -86,21 +76,6 @@ function detailsAttributes(label,value){
         details.appendChild(span);
         return details;
 }
-
-// const cardRender = (user)=>{
-    
-//     const detailsContainer = document.createElement("div");
-//     detailsContainer.setAttribute("class","class-container");
-//     cardContainer.appendChild(detailsContainer);
-
-//     const nametag = document.createElement("h1");
-//     nametag.setAttribute("class","name");
-
-//     detailsContainer.appendChild(nametag);
-    
-//     fields.forEach((element)=> nametag.textContent = element.label);
-
-// }
 
 
 fetchData();
