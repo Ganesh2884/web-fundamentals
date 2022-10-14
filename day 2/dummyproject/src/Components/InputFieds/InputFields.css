@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputDetails{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.addUser {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
