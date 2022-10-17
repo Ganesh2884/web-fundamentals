@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div .todolist{
+    
+    margin-top: 60px;
+}
+
+.orderitems {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+/* .listitems{
+    border: 1px solid blue;
+    height: 30px;
+    width: auto;
+    list-style: none;
+    margin-left: 650px;
+    margin-bottom: 10px;
+} */
+/* 
+.btn{
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    row-gap: 30px;
+    margin-right: 50px;
+}
+
+.listitems,
+.btn {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+} */

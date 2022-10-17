@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.usersData {
+    display: flex;
+    flex-direction: row;
+
+}
