@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.todo-app{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 2%;
+}
+
+.whole-page{
+    background-color: darkgreen;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}

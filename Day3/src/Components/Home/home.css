@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-page{
+    background-color: bisque;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}

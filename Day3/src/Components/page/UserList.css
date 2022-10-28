@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.userlist{
+    height: 35px;
+    width: 500px;
+    background-color: #e5909e;
+    border: 1px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.cnt{
+    display: flex;
+    gap: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
